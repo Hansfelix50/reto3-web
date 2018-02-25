@@ -14,6 +14,16 @@ nav {
     background-color: #33506b;
 }
 
+.collection-item.logo{
+    background-color: #444;
+ 
+}
+
+.collection-item.logo img{
+    margin: 0 auto;
+    width: 100%
+}
+
 .chips_c{
     margin: 15px auto
 }
@@ -21,6 +31,9 @@ nav {
 .comentario time{
     font-size: 13px
 }
+
+.btn, .btn-large {
+    background-color: #8826a6;
 
 hr {
     display: block;
