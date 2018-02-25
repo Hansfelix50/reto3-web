@@ -44,9 +44,11 @@
         <!-- nav -->
         <div class="col s3">
             <div class="collection">
-                
-                <a href="#" class="collection-item"><h4>Este es el menú</h4></a>   
-                
+
+                <a href="#" class="collection-item">
+                    <h4>Este es el menú</h4>
+                </a>
+
 
                 <a href="#" class="collection-item">Link 1</a>
 
@@ -63,48 +65,62 @@
 
 
         </div>
-        <main class="col s6">
+        <main class="col s9">
             <!-- articulo 1 -->
-            
-          <div class="card">
-            <article class="card-content">
-                    <time class="right">21 de Febrero del 2018</time>
-                <header>
-                    <!-- título -->
-                    <h2>Venta de Helados</h2>
-                  
-                </header>
-                <!-- Contenido del artículo -->
-                <p>Los Helados son ricos y sabrosos, sobre todo los de chocolate y vainilla. Todos los helados son demasiado
-                    ricos y debería haber un día del helado (Si es posible que sean 2 o una semana entera). Además hay que
-                    promover que el helado no solo se debe comer en verano.
-                </p>
-                <footer>
-                    <!-- Etiquetas -->
-                    <span class="etiquetas">Helado</span>
-                    <span class="etiquetas">Chocolate</span>
-                    <span class="etiquetas">Venta</span>
-                </footer>
-                <!-- Comentario -->
-                <article class="comentario">
-                    <!-- Fecha + hora -->
-                    <time>22 de Febrero del 2018 - 4:04pm</time>
-                    <!-- Contenido del comentario -->
-                    ¡Muy buena entrada!, me encanta...
-                </article>
-                <!-- Otro comentario -->
-                <article class="comentario">
-                    <!-- Fecha + hora -->
-                    <time>22 de Febrero del 2018 - 5:05pm</time>
-                    <!-- Contenido del comentario -->
-                    Respeto al artículo, pero debieron ser mas inclusivos con otros sabores. Es solo una crítica
-                </article>
-                <!-- Comentar -->
-                <input type="text">
-                <button class="btn">Comentar</button>
 
-            </article>
-           </div>
+            <div class="card">
+                <article class="card-content">
+                    <time class="right">21 de Febrero del 2018</time>
+                    <header>
+                        <!-- título -->
+                        <h2>Venta de Helados</h2>
+
+                    </header>
+                    <!-- Contenido del artículo -->
+                    <p>Los Helados son ricos y sabrosos, sobre todo los de chocolate y vainilla. Todos los helados son demasiado
+                        ricos y debería haber un día del helado (Si es posible que sean 2 o una semana entera). Además hay
+                        que promover que el helado no solo se debe comer en verano.
+                    </p>
+                    <footer>
+                        <!-- chip -->
+                        <span class="chip">Helado</span>
+                        <span class="chip">Chocolate</span>
+                        <span class="chip">Venta</span>
+                    </footer>
+                    <!-- Comentario -->
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="https://randomuser.me/api/portraits/thumb/men/52.jpg" alt="" class="circle">
+                            <article class="comentario">
+                                <!-- Fecha + hora -->
+                                <time class="right">22 de Febrero del 2018 - 4:04pm</time>
+                                <!-- Contenido del comentario -->
+                                ¡Muy buena entrada!, me encanta...
+                            </article>
+                        </li>
+                        <!-- Otro comentario -->
+                        <li class="collection-item avatar">
+                            <img src="https://randomuser.me/api/portraits/thumb/men/44.jpg" alt="" class="circle">
+                            <article class="comentario">
+                                <!-- Fecha + hora -->
+                                <time class="right">22 de Febrero del 2018 - 5:05pm</time>
+                                <!-- Contenido del comentario -->
+                                Respeto al artículo, pero debieron ser mas inclusivos con otros sabores. Es solo una crítica
+                            </article>
+                        </li>
+                    </ul>
+                    <!-- Comentar -->
+                    <div class="row">
+                        <div class="input-field col s9">
+                            <input placeholder="Ingrese aquí su comentario" id="coment" type="text" class="validate">
+                            <label for="coment">Comentario</label>
+                        </div>
+                        <div class="col s3 valign-wrapper">
+                            <button class="btn">Comentar</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
 
             <hr>
             <!-- articulo 2 -->
@@ -121,25 +137,33 @@
                     los efectos que trae consigo, lo sigue tomando.
                 </p>
                 <footer>
-                    <!-- Etiquetas -->
-                    <span class="etiquetas">Alcohol</span>
-                    <span class="etiquetas">Consumo</span>
-                    <span class="etiquetas">Miraflores</span>
+                    <!-- chip -->
+                    <span class="chip">Alcohol</span>
+                    <span class="chip">Consumo</span>
+                    <span class="chip">Miraflores</span>
                 </footer>
                 <!-- Comentario -->
-                <article class="comentario">
-                    <!-- Fecha + hora -->
-                    <time>13 de Febrero del 2018 - 3:03pm</time>
-                    <!-- Contenido del comentario -->
-                    Espero que algún día creen alcohol sin esos efectos secundarios
-                </article>
-                <!-- Otro comentario -->
-                <article class="comentario">
-                    <!-- Fecha + hora -->
-                    <time>14 de Febrero del 2018 - 6:06pm</time>
-                    <!-- Contenido del comentario -->
-                    Creo que estas exagerando, por ejemplo yo solo consumo cuando como cecivhe y lo acompaño con su cervecita. Rico!
-                </article>
+                <ul class="collection">
+                    <li class="collection-item avatar">
+                        <img src="https://randomuser.me/api/portraits/thumb/men/50.jpg" alt="" class="circle">
+                        <article class="comentario">
+                            <!-- Fecha + hora -->
+                            <time class="right">13 de Febrero del 2018 - 3:03pm</time>
+                            <!-- Contenido del comentario -->
+                            Espero que algún día creen alcohol sin esos efectos secundarios
+                        </article>
+                        <!-- Otro comentario -->
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="https://randomuser.me/api/portraits/thumb/men/20.jpg" alt="" class="circle">
+                        <article class="comentario">
+                            <!-- Fecha + hora -->
+                            <time class="right">14 de Febrero del 2018 - 6:06pm</time>
+                            <!-- Contenido del comentario -->
+                            Creo que estas exagerando, por ejemplo yo solo consumo cuando como cecivhe y lo acompaño con su cervecita. Rico!
+                        </article>
+                    </li>
+                </ul>
                 <!-- Comentar -->
                 <input type="text">
                 <button class="btn">Comentar</button>
@@ -160,25 +184,33 @@
                     que esta contando. Debemos ser concientes y no ser tan exagerados con nuestros escondites.
                 </p>
                 <footer>
-                    <!-- Etiquetas -->
-                    <span class="etiquetas">Juego</span>
-                    <span class="etiquetas">Escondidas</span>
-                    <span class="etiquetas">Barrio</span>
+                    <!-- chip -->
+                    <span class="chip">Juego</span>
+                    <span class="chip">Escondidas</span>
+                    <span class="chip">Barrio</span>
                 </footer>
                 <!-- Comentario -->
-                <article class="comentario">
-                    <!-- Fecha + hora -->
-                    <time>11 de Enero del 2018 - 11:11am</time>
-                    <!-- Contenido del comentario -->
-                    ¡Estas mal!, el juego se llama "ESCONDIDAS" sino que se llame "NO TE ESCONDAS"...
-                </article>
-                <!-- Otro comentario -->
-                <article class="comentario">
-                    <!-- Fecha + hora -->
-                    <time>15 de Enero del 2018 - 8:08pm</time>
-                    <!-- Contenido del comentario -->
-                    Creo que lo has estado jugando mal toda la vida.
-                </article>
+                <ul class="collection">
+                    <li class="collection-item avatar">
+                        <img src="https://randomuser.me/api/portraits/thumb/men/1git3.jpg" alt="" class="circle">
+                        <article class="comentario">
+                            <!-- Fecha + hora -->
+                            <time class="right">11 de Enero del 2018 - 11:11am</time>
+                            <!-- Contenido del comentario -->
+                            ¡Estas mal!, el juego se llama "ESCONDIDAS" sino que se llame "NO TE ESCONDAS"...
+                        </article>
+                        <!-- Otro comentario -->
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="https://randomuser.me/api/portraits/thumb/men/83.jpg" alt="" class="circle">
+                        <article class="comentario">
+                            <!-- Fecha + hora -->
+                            <time class="right">15 de Enero del 2018 - 8:08pm</time>
+                            <!-- Contenido del comentario -->
+                            Creo que lo has estado jugando mal toda la vida.
+                        </article>
+                    </li>
+                </ul>
                 <!-- Comentar -->
                 <input type="text">
                 <button class="btn">Comentar</button>
@@ -213,8 +245,7 @@
         </div>
     </footer>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -222,6 +253,8 @@
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
 
     </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
